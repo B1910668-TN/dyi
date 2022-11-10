@@ -1,0 +1,15 @@
+.role{
+    padding: 25px 25px 25px 25px;
+    width: 800px;
+    margin: 0px auto 0px auto;
+}
+
+.role h3{
+    color: rgb(147, 7, 52);
+    padding-left: 20px;
+}
+
+.connect p{
+    padding-left: 25px;
+    font-size: 18px;
+}

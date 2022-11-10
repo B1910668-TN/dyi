@@ -1,0 +1,139 @@
+body{
+    background-image: url(../anh/119234579_169457918065236_755533166268046471_n-1.jpg);
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+}
+
+.nencangiua{
+    width: 500px;
+    height: 500px;
+    margin: 100px auto 0px auto;
+    position: relative;
+}
+
+/* Nền đen */
+
+.nenden{
+    background-color: black;
+    width: 300px;
+    height: 520px;
+    opacity: 0.65;
+    position: absolute;
+    margin: 0px 100px 0px 100px;
+    border-radius: 15px;
+}
+
+/* Form đăng ký */
+
+.formdk{
+    margin: 25px 120px 0px 120px;
+    position: absolute;
+}
+
+input[type=text], input[type=password], input[type=email]{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: rgb(208, 10, 89);
+    color: aliceblue;
+    background-color: transparent;
+    font-size: 17px;
+}
+
+input[type=date]{
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.noline:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    opacity: 0.8;
+}
+
+td{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 0px black;
+    text-align: center;
+}
+
+td.chinh{
+    text-align: center;
+    font-size: 35px;
+    font-family: Verdana;
+    text-shadow: 2px 2px 0px black;
+}
+
+td.nut{
+    font-family: Verdana;
+}
+
+.fdate{
+    opacity: 0.7;
+}
+
+.nop{
+    border-radius: 7px;
+    font-size: 14px;
+    background-color: rgb(245, 92, 120);
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgb(215, 206, 206);
+}
+
+.back:hover{
+    font-size: 13px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(214, 172, 237);
+    color: black;
+}
+
+.dichuot:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.tb{
+    text-align: center;
+}
+
+a.link{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px 15px;
+}
+
+a:visited{
+    color: white;
+}
+
+.run{
+    font-size: 25px;
+    color: white;
+}
+
+/* 
+
+
+
+@media screen and (max-width: 600px){
+    body, .formdk{
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+*/
